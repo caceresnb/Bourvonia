@@ -366,9 +366,9 @@ la pantalla */
 /*********** Productos CSS **********/
 /*******************************/
 .productos {
-  position: center;
+  position: relative;
   width: 100%;
-  padding: 45px 0 15px 0;
+  margin-left: 10%;
   margin-bottom: 100px;
   background: #FFFFFF;
 }
@@ -557,6 +557,7 @@ la pantalla */
    color: white;
    margin-top: 3rem;
    font-size: smaller;
+   text-align: center;
  }
  
  .footext {
