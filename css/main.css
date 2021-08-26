@@ -106,13 +106,6 @@ la pantalla */
     display: none; }
   .imagen-mapa img {
     display: none; } }
-  .about {
-    margin-left: 15%;
-  }
-  .about .about__texto p{
-    position: relative;
-    text-align: left;
-  }
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
