@@ -475,6 +475,25 @@ la pantalla */
     word-spacing: 1px;
     padding-left: 5%;
     }
+  .about{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  }
+  .about .about__texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .about .about__centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 500px;
+      font-family:BodoniXT;
+  }
 .encabezados {
   font-size: 36px;
   margin-top: 50px;
