@@ -89,7 +89,7 @@ la pantalla */
   .imagen-mapa img {
     display: none; } }
 
-@media (max-width: 576px) {
+@media (max-width: 576px)  {
   .logoshome img {
     display: none; }
   .contactos {
@@ -242,7 +242,7 @@ la pantalla */
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px)  {
   header {
     margin-left: 25%;
   }
@@ -261,7 +261,7 @@ la pantalla */
   .imagen-mapa img {
     display: none; } }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) and (max-width: 1200px) {
   .contactos {
     display: none; }
   .collapse {
@@ -292,10 +292,10 @@ la pantalla */
 .productos .productos-item {
   position: relative;
   width: 300px;
-  height: 500px;
+  height: 480px;
   margin-bottom: 30px;
   margin-top: 60px;
-  padding: 10px;
+  padding: 8px;
   margin-left: none;
   background: #FFFFFF;
   border: 2px solid #979797;
@@ -306,7 +306,7 @@ la pantalla */
 }
 .productos .productos-img img {
   position: relative;
-  width: 300px;
+  width: 280px;
   height: 300px;
   width: 100%;
 }
@@ -317,7 +317,7 @@ la pantalla */
   background: #FFFFFF;
 }
 .productos .productos-text h2 {
-  font-size: 19px;
+  font-size: 17px;
   margin: 0;
   font-size: 19px;
   color: #0D0D0D;
@@ -325,19 +325,23 @@ la pantalla */
 .productos .productos-text span {
   color: #979797;
   margin: 0;
-  font-size: 19px;
+  font-size: 17px;
   text-decoration:line-through;
 }
 .productos .productos-text h4 {
   color: #979797;
   margin: 0;
-  font-size: 19px;
+  font-size: 17px;
 }
 .productos .productos-text p{
   color: #0D0D0D;
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
   text-align: right;
+}
+.catalogo h4 {
+  text-align: center;
+  margin-right: 15%;
 }
 /*******************************/
 /********** About CSS **********/
@@ -358,7 +362,7 @@ la pantalla */
     .about .about__texto {
     font-family: "Roboto";
     color: #0D0D0D;
-    font-size: 16px;
+    font-size: 18px;
     width: 60%;
     text-align: center;
     letter-spacing: 2px;
@@ -384,13 +388,15 @@ la pantalla */
       font-size: 500px;
       font-family:BodoniXT;
   }
-.encabezados {
-  font-size: 36px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-  text-align: center;
-}
+  .about .encabezados {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 25%;
+    margin-left: auto;
+    letter-spacing: 3px;
+    text-align: center;
+  }
 @media (min-width: 1200px) and (max-width: 1341px) {
   .contactos {
     display: none; } }
@@ -717,13 +723,15 @@ la pantalla */
       font-size: 500px;
       font-family:BodoniXT;
   }
-.encabezados {
-  font-size: 36px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-  text-align: center;
-}
+  .about .encabezados {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
+    text-align: center;
+  }
 
 .btn-header {
   font-size: 1.5rem;
