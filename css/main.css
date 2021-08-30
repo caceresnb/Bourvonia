@@ -88,26 +88,119 @@ la pantalla */
     margin: 20px 0px 20px 0px; }
   .imagen-mapa img {
     display: none; } }
-
-@media (min-width: 350px) and (max-width: 700px) {
-  .logoshome img {
-    display: none; }
-  .contactos {
-    display: none; }
-  .collapse {
-    display: none; }
-  .redesespacio-footer {
-    display: none; }
-  .footer-redes {
-    display: none; }
-  .footer-list {
-    display: none; }
-  .contactos {
-    display: none; }
-  .imagen-mapa img {
-    display: none; } }
-
-
+  /*******************************/
+/*********** Productos CSS **********/
+/*******************************/
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 250px;
+  height: 370px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  padding: 15px;
+  margin-left: 20%;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 230px;
+  height: 280px;
+  margin: 1px;
+}
+.card-group .productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-text h2 {
+  font-size: 14px;
+  margin: 0;
+  color: #0D0D0D;
+}
+.card-group .productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 12px;
+  text-decoration:line-through;
+}
+.card-group .productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 12px;
+}
+.catalogo h4 {
+  font-size: 20px;
+  margin-left: 10%;
+}
+.card-group .productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 12px;
+  text-align: right;
+}
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+        display: inline-block;
+      text-align: center;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about .about__texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .about .about__centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 200px;
+      font-family:BodoniXT;
+  }
+.about .encabezados {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+  
 @media (min-width: 768px) and (max-width: 991.98px) {
   header {
     margin-left: 25%;
@@ -126,7 +219,117 @@ la pantalla */
     display: none; }
   .imagen-mapa img {
     display: none; } }
-
+  /*******************************/
+/*********** Productos CSS **********/
+/*******************************/
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 220px;
+  height: 370px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  padding: 15px;
+  margin-left: 20%;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 180px;
+  height: 210px;
+}
+.card-group .productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-text h2 {
+  font-size: 14px;
+  margin: 0;
+  color: #0D0D0D;
+}
+.card-group .productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 12px;
+  text-decoration:line-through;
+}
+.card-group .productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 12px;
+}
+.catalogo h4 {
+  font-size: 20px;
+  margin-left: 10%;
+}
+.card-group .productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 12px;
+  text-align: right;
+}
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+        display: inline-block;
+      text-align: center;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about .about__texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .about .about__centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 200px;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .contactos {
     display: none; }
@@ -144,7 +347,117 @@ la pantalla */
     display: none; }
   .redesespacio-footer {
     display: none; } }
-
+  /*******************************/
+/*********** Productos CSS **********/
+/*******************************/
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-item {
+  position: relative;
+  width: 220px;
+  height: 370px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  padding: 15px;
+  margin-left: 20%;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 180px;
+  height: 210px;
+}
+.card-group .productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.card-group .productos .productos-text h2 {
+  font-size: 14px;
+  margin: 0;
+  color: #0D0D0D;
+}
+.card-group .productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 12px;
+  text-decoration:line-through;
+}
+.card-group .productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 12px;
+}
+.catalogo h4 {
+  font-size: 20px;
+  margin-left: 10%;
+}
+.card-group .productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 12px;
+  text-align: right;
+}
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+        display: inline-block;
+      text-align: center;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about .about__texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .about .about__centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 200px;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
 @media (min-width: 1200px) and (max-width: 1341px) {
   .contactos {
     display: none; } }
@@ -396,29 +709,6 @@ la pantalla */
   width: 338px;
   height: 398px;
   width: 100%;
-}
-.productos .productos-item:hover .productos-social {
-  background: rgba(256, 256, 256, .5);
-}
-.productos .productos-item:hover .productos-social a:first-child {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s 0s;
-}
-.productos .productos-item:hover .productos-social a:nth-child(2) {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s .1s;
-}
-.productos .productos-item:hover .productos-social a:nth-child(3) {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s .2s;
-}
-.productos .productos-item:hover .productos-social a:nth-child(4) {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s .3s;
 }
 .productos .productos-text {
   position: relative;
