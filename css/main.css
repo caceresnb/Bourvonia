@@ -108,18 +108,18 @@ la pantalla */
 .productos {
   position: relative;
   width: 100%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-bottom: 100px;
   background: #FFFFFF;
 }
 .productos .productos-item {
   position: relative;
-  width: 338px;
-  height: 553px;
-  margin-bottom: 30px;
-  margin-top: 90px;
-  padding: 10px;
-  margin-left: 6%;
+  width: 250px;
+  height: 450px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding: 5px;
+  margin-left: 5%;
   background: #FFFFFF;
   border: 2px solid #979797;
 }
@@ -129,8 +129,8 @@ la pantalla */
 }
 .productos .productos-img img {
   position: relative;
-  width: 338px;
-  height: 398px;
+  width: 230px;
+  height: 350px;
   width: 100%;
 }
 .productos .productos-item:hover .productos-social {
@@ -163,27 +163,29 @@ la pantalla */
   background: #FFFFFF;
 }
 .productos .productos-text h2 {
-  font-size: 19px;
+  font-size: 14px;
   margin: 0;
-  font-size: 19px;
   color: #0D0D0D;
 }
 .productos .productos-text span {
   color: #979797;
   margin: 0;
-  font-size: 19px;
+  font-size: 14px;
   text-decoration:line-through;
 }
 .productos .productos-text h4 {
   color: #979797;
   margin: 0;
-  font-size: 19px;
+  font-size: 14px;
 }
 .productos .productos-text p{
   color: #0D0D0D;
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
   text-align: right;
+}
+.catalogo {
+  font-size: 25px;
 }
 /*******************************/
 /********** About CSS **********/
@@ -227,7 +229,7 @@ la pantalla */
       left: 50%;
       transform: translate(-50%, -50%);
       color: #FFFFFF;
-      font-size: 500px;
+      font-size: 100px;
       font-family:BodoniXT;
   }
 .encabezados {
@@ -280,18 +282,18 @@ la pantalla */
 .productos {
   position: relative;
   width: 100%;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-bottom: 100px;
   background: #FFFFFF;
 }
 .productos .productos-item {
   position: relative;
-  width: 338px;
-  height: 553px;
+  width: 300px;
+  height: 500px;
   margin-bottom: 30px;
-  margin-top: 90px;
-  padding: 10px;
-  margin-left: 6%;
+  margin-top: 70px;
+  padding: 7px;
+  margin-left: 4%;
   background: #FFFFFF;
   border: 2px solid #979797;
 }
@@ -301,8 +303,8 @@ la pantalla */
 }
 .productos .productos-img img {
   position: relative;
-  width: 338px;
-  height: 398px;
+  width: 280px;
+  height: 350px;
   width: 100%;
 }
 .productos .productos-text {
@@ -314,7 +316,6 @@ la pantalla */
 .productos .productos-text h2 {
   font-size: 17px;
   margin: 0;
-  font-size: 19px;
   color: #0D0D0D;
 }
 .productos .productos-text span {
@@ -335,7 +336,7 @@ la pantalla */
   text-align: right;
 }
 .catalogo {
-  margin-left: 10%;
+  align-self: center;
 }
 /*******************************/
 /********** About CSS **********/
@@ -357,7 +358,7 @@ la pantalla */
     .about .about__texto {
     font-family: "Roboto";
     color: #0D0D0D;
-    font-size: 20px;
+    font-size: 22px;
     width: 60%;
     text-align: center;
     letter-spacing: 2px;
