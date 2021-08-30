@@ -6,10 +6,6 @@
   box-sizing: border-box;
   font-family: 'Roboto'; }
 
-$principal: #0D0D0D;
-$secundario: #979797;
-$back:#FFFFFF;
-
 body,
 html {
   margin: 0px;
@@ -284,19 +280,18 @@ la pantalla */
 .productos {
   position: relative;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
   margin-bottom: 100px;
   background: #FFFFFF;
 }
 .productos .productos-item {
   position: relative;
-  width: 300px;
-  height: 480px;
+  width: 338px;
+  height: 553px;
   margin-bottom: 30px;
-  margin-top: 60px;
-  padding: 8px;
-  margin-left: none;
+  margin-top: 90px;
+  padding: 10px;
+  margin-left: 6%;
   background: #FFFFFF;
   border: 2px solid #979797;
 }
@@ -306,8 +301,8 @@ la pantalla */
 }
 .productos .productos-img img {
   position: relative;
-  width: 280px;
-  height: 300px;
+  width: 338px;
+  height: 398px;
   width: 100%;
 }
 .productos .productos-text {
@@ -339,9 +334,8 @@ la pantalla */
   font-size: 15px;
   text-align: right;
 }
-.catalogo h4 {
-  text-align: center;
-  margin-right: 15%;
+.catalogo {
+  margin-left: 10%;
 }
 /*******************************/
 /********** About CSS **********/
@@ -349,8 +343,9 @@ la pantalla */
 .about {
   margin-top: 40px;
   margin-bottom: 100px;
-  display: block; 
   position: relative;
+  display: inline-block;
+  text-align: center;
   width: 100%;
 }
   .about .about__foto {
@@ -362,18 +357,13 @@ la pantalla */
     .about .about__texto {
     font-family: "Roboto";
     color: #0D0D0D;
-    font-size: 18px;
+    font-size: 20px;
     width: 60%;
     text-align: center;
     letter-spacing: 2px;
     word-spacing: 1px;
     padding-left: 5%;
     }
-  .about{
-      position: relative;
-      display: inline-block;
-      text-align: center;
-  }
   .about .about__texto-encima{
       position: absolute;
       top: 10px;
@@ -385,17 +375,12 @@ la pantalla */
       left: 50%;
       transform: translate(-50%, -50%);
       color: #FFFFFF;
-      font-size: 500px;
+      font-size: 300px;
       font-family:BodoniXT;
   }
   .about .encabezados {
     font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    margin-right: 25%;
-    margin-left: auto;
-    letter-spacing: 3px;
-    text-align: center;
+    margin: auto;
   }
 @media (min-width: 1200px) and (max-width: 1341px) {
   .contactos {
@@ -678,6 +663,9 @@ la pantalla */
   font-size: 14px;
   text-align: right;
 }
+.catalogo {
+  margin: auto;
+}
 /*******************************/
 /********** About CSS **********/
 /*******************************/
@@ -727,10 +715,7 @@ la pantalla */
     font-size: 36px;
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    letter-spacing: 3px;
-    text-align: center;
+    margin: auto;
   }
 
 .btn-header {
