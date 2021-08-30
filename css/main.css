@@ -89,7 +89,7 @@ la pantalla */
   .imagen-mapa img {
     display: none; } }
 
-@media (min-width: 350px) and (max-width: 700px) {
+@media (max-width: 576px) {
   .logoshome img {
     display: none; }
   .contactos {
@@ -242,7 +242,7 @@ la pantalla */
   text-align: center;
 }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 768px) {
   header {
     margin-left: 25%;
   }
@@ -261,7 +261,7 @@ la pantalla */
   .imagen-mapa img {
     display: none; } }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (max-width: 992px) {
   .contactos {
     display: none; }
   .collapse {
@@ -278,7 +278,119 @@ la pantalla */
     display: none; }
   .redesespacio-footer {
     display: none; } }
-
+/*******************************/
+/*********** Productos CSS **********/
+/*******************************/
+.productos {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.productos .productos-item {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  padding: 10px;
+  margin-left: none;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  width: 100%;
+}
+.productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.productos .productos-text h2 {
+  font-size: 19px;
+  margin: 0;
+  font-size: 19px;
+  color: #0D0D0D;
+}
+.productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+  text-decoration:line-through;
+}
+.productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 19px;
+}
+.productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+}
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: block; 
+  position: relative;
+  width: 100%;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+   }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  }
+  .about .about__texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .about .about__centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 500px;
+      font-family:BodoniXT;
+  }
+.encabezados {
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+}
 @media (min-width: 1200px) and (max-width: 1341px) {
   .contactos {
     display: none; } }
