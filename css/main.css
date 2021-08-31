@@ -96,9 +96,7 @@ la pantalla */
     display: none; }
   .imagen-mapa img {
     display: none; } }
-/*******************************/
 /*********** Productos CSS **********/
-/*******************************/
 .productos {
   position: relative;
   width: 100%;
@@ -108,12 +106,12 @@ la pantalla */
 }
 .productos .productos-item {
   position: relative;
-  width: 250px;
-  height: 450px;
-  margin-bottom: 10px;
-  margin-top: 30px;
-  padding: 5px;
-  margin-left: 5%;
+  width: 300px;
+  height: 500px;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  padding: 4px;
+  margin-left: 4%;
   background: #FFFFFF;
   border: 2px solid #979797;
 }
@@ -123,32 +121,9 @@ la pantalla */
 }
 .productos .productos-img img {
   position: relative;
-  width: 230px;
+  width: 280px;
   height: 350px;
   width: 100%;
-}
-.productos .productos-item:hover .productos-social {
-  background: rgba(256, 256, 256, .5);
-}
-.productos .productos-item:hover .productos-social a:first-child {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s 0s;
-}
-.productos .productos-item:hover .productos-social a:nth-child(2) {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s .1s;
-}
-.productos .productos-item:hover .productos-social a:nth-child(3) {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s .2s;
-}
-.productos .productos-item:hover .productos-social a:nth-child(4) {
-  opacity: 1;
-  margin-top: 0;
-  transition: .3s .3s;
 }
 .productos .productos-text {
   position: relative;
@@ -157,38 +132,38 @@ la pantalla */
   background: #FFFFFF;
 }
 .productos .productos-text h2 {
-  font-size: 14px;
+  font-size: 17px;
   margin: 0;
   color: #0D0D0D;
 }
 .productos .productos-text span {
   color: #979797;
   margin: 0;
-  font-size: 14px;
+  font-size: 17px;
   text-decoration:line-through;
 }
 .productos .productos-text h4 {
   color: #979797;
   margin: 0;
-  font-size: 14px;
+  font-size: 17px;
 }
 .productos .productos-text p{
   color: #0D0D0D;
   margin: 0;
-  font-size: 12px;
+  font-size: 15px;
   text-align: right;
 }
 .catalogo {
-  font-size: 25px;
+  align-self: center;
 }
-/*******************************/
+
 /********** About CSS **********/
-/*******************************/
 .about {
   margin-top: 40px;
   margin-bottom: 100px;
-  display: block; 
   position: relative;
+  display: inline-block;
+  text-align: center;
   width: 100%;
 }
   .about .about__foto {
@@ -196,22 +171,17 @@ la pantalla */
     height: fit-content;
     margin-bottom: 20px;
     border-style: groove;
-   }
+  }
     .about .about__texto {
     font-family: "Roboto";
     color: #0D0D0D;
-    font-size: 16px;
+    font-size: 18px;
     width: 60%;
     text-align: center;
     letter-spacing: 2px;
     word-spacing: 1px;
     padding-left: 5%;
     }
-  .about{
-      position: relative;
-      display: inline-block;
-      text-align: center;
-  }
   .about .about__texto-encima{
       position: absolute;
       top: 10px;
@@ -226,12 +196,29 @@ la pantalla */
       font-size: 100px;
       font-family:BodoniXT;
   }
-.encabezados {
-  font-size: 36px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-  text-align: center;
+  .about .encabezados {
+    font-size: 20px;
+    margin: auto;
+  }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .fotos .card .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 30px;
+      font-family:BodoniXT;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px)  {
@@ -252,31 +239,11 @@ la pantalla */
     display: none; }
   .imagen-mapa img {
     display: none; } }
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .contactos {
-    display: none; }
-  .collapse {
-    display: none; }
-  .redesespacio-footer {
-    display: none; }
-  .footer-redes {
-    display: none; }
-  .footer-list {
-    display: none; }
-  .contactos {
-    display: none; }
-  .imagen-mapa img {
-    display: none; }
-  .redesespacio-footer {
-    display: none; } }
-/*******************************/
 /*********** Productos CSS **********/
-/*******************************/
 .productos {
   position: relative;
   width: 100%;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-bottom: 100px;
   background: #FFFFFF;
 }
@@ -332,9 +299,149 @@ la pantalla */
 .catalogo {
   align-self: center;
 }
-/*******************************/
+
 /********** About CSS **********/
-/*******************************/
+.about {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+  .about .about__foto {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 20px;
+    border-style: groove;
+  }
+    .about .about__texto {
+    font-family: "Roboto";
+    color: #0D0D0D;
+    font-size: 22px;
+    width: 60%;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-left: 5%;
+    }
+  .about .about__texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .about .about__centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 300px;
+      font-family:BodoniXT;
+  }
+  .about .encabezados {
+    font-size: 22px;
+    margin: auto;
+  }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .fotos .card .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 30px;
+      font-family:BodoniXT;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .contactos {
+    display: none; }
+  .collapse {
+    display: none; }
+  .redesespacio-footer {
+    display: none; }
+  .footer-redes {
+    display: none; }
+  .footer-list {
+    display: none; }
+  .contactos {
+    display: none; }
+  .imagen-mapa img {
+    display: none; }
+  .redesespacio-footer {
+    display: none; } }
+
+/*********** Productos CSS **********/
+.card-group .productos {
+  position: relative;
+  width: 100%;
+  margin-left: 30%;
+  margin-bottom: 100px;
+  background: #FFFFFF;
+}
+.productos .productos-item {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  padding: 7px;
+  margin-left: 30%%;
+  background: #FFFFFF;
+  border: 2px solid #979797;
+}
+.productos .productos-img {
+  position: relative;
+  overflow: hidden;
+}
+.productos .productos-img img {
+  position: relative;
+  width: 280px;
+  height: 350px;
+  width: 100%;
+}
+.productos .productos-text {
+  position: relative;
+  padding: 25px 15px 10px 15px;
+  text-align: center;
+  background: #FFFFFF;
+}
+.productos .productos-text h2 {
+  font-size: 17px;
+  margin: 0;
+  color: #0D0D0D;
+}
+.productos .productos-text span {
+  color: #979797;
+  margin: 0;
+  font-size: 17px;
+  text-decoration:line-through;
+}
+.productos .productos-text h4 {
+  color: #979797;
+  margin: 0;
+  font-size: 17px;
+}
+.productos .productos-text p{
+  color: #0D0D0D;
+  margin: 0;
+  font-size: 15px;
+  text-align: right;
+}
+.catalogo {
+  align-self: center;
+}
+/********** About CSS **********/
 .about {
   margin-top: 40px;
   margin-bottom: 100px;
@@ -377,6 +484,26 @@ la pantalla */
     font-size: 30px;
     margin: auto;
   }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .fotos .card .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 50px;
+      font-family:BodoniXT;
+  }
+}
 @media (min-width: 1200px) and (max-width: 1341px) {
   .contactos {
     display: none; } }
@@ -597,13 +724,12 @@ la pantalla */
   -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
   animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both; }
 
-/*******************************/
+
 /*********** Productos CSS **********/
-/*******************************/
-.productos {
+.card-group .productos {
   position: relative;
   width: 100%;
-  margin-left: 10%;
+  margin-left: 12%;
   margin-bottom: 100px;
   background: #FFFFFF;
 }
@@ -612,7 +738,7 @@ la pantalla */
   width: 338px;
   height: 553px;
   margin-bottom: 30px;
-  margin-top: 90px;
+  margin-top: 70px;
   padding: 10px;
   margin-left: 6%;
   background: #FFFFFF;
@@ -658,11 +784,11 @@ la pantalla */
   text-align: right;
 }
 .catalogo {
-  margin: auto;
+  margin-left: 6%;
 }
-/*******************************/
+
 /********** About CSS **********/
-/*******************************/
+
 .about {
   margin-top: 40px;
   margin-bottom: 100px;
@@ -698,11 +824,11 @@ la pantalla */
   }
   .about .about__centrado{
       position: absolute;
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
       color: #FFFFFF;
-      font-size: 500px;
+      font-size: 300px;
       font-family:BodoniXT;
   }
   .about .encabezados {
@@ -730,7 +856,7 @@ la pantalla */
       font-size: 100px;
       font-family:BodoniXT;
   }
-  }
+
 
 .btn-header {
   font-size: 1.5rem;
