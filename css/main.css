@@ -48,38 +48,7 @@ footer {
   padding: 50px 0px 50px 0px;
   font-size: 14px; }
 
-/* Tres medidas que determinan el máximo 
-para tomar las propiedades que necesite 
-la pantalla */
-@media (max-width: 575.98px) {
-  .nav-item {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    justify-content: space-around; }
-  .logoshome img {
-    display: none; }
-  footer {
-    text-align: center; }
-  .footer-list {
-    display: none; }
-  .fotos-productos img {
-    display: none; }
-  .detalleproducto {
-    width: 410px; }
-  .margin-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: baseline;
-    align-content: center; }
-  .square-brand {
-    margin: 20px 0px 20px 0px; }
-  .imagen-mapa img {
-    display: none; } }
-
-@media (max-width: 576px)  {
+@media (min-width: 576px) and (max-width: 768px)  {
   .logoshome img {
     display: none; }
   .contactos {
@@ -223,7 +192,7 @@ la pantalla */
 
 @media (min-width: 768px) and (max-width: 992px)  {
   header {
-    margin-left: 25%;
+    margin-left: 40%;
   }
   .contactos {
     display: none; }
@@ -238,7 +207,24 @@ la pantalla */
   .contactos {
     display: none; }
   .imagen-mapa img {
-    display: none; } }
+    display: none; } 
+    .header {
+      z-index: 30;
+      font-weight: 700;
+      background-color: #817777;
+      display: inline-flex;
+      justify-content: center;
+      align-items: baseline;
+      padding: 40px 60px 40px 60px; }
+   
+    .logohead {
+      margin-left: 10px;
+      margin-right: 150px; }
+    
+    .menu-space {
+      display: inline-block;
+      margin: 3px;
+    }
 /*********** Productos CSS **********/
 .productos {
   position: relative;
@@ -379,8 +365,24 @@ la pantalla */
   .imagen-mapa img {
     display: none; }
   .redesespacio-footer {
-    display: none; } }
-
+    display: none; } 
+    .header {
+      z-index: 30;
+      font-weight: 700;
+      background-color: #817777;
+      display: inline-flex;
+      justify-content: center;
+      align-items: baseline;
+      padding: 40px 60px 40px 60px; }
+   
+    .logohead {
+      margin-left: 10px;
+      margin-right: 150px; }
+    
+    .menu-space {
+      display: inline-block;
+      margin: 3px;
+    }
 /*********** Productos CSS **********/
 .card-group .productos {
   position: relative;
@@ -611,10 +613,10 @@ la pantalla */
   margin-right: 250px; }
 
 .menu-space {
-  flex-wrap: wrap; }
+  flex-wrap: nowrap; }
 
 .wrapmenu {
-  flex-wrap: wrap; }
+  flex-wrap: nowrap; }
 
 .logo-menu-mobile {
   margin-left: 20px;
