@@ -711,6 +711,26 @@ la pantalla */
     margin-bottom: 20px;
     margin: auto;
   }
+  .fotos {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: auto;
+  }
+  .fotos .card {
+    width: 50%;
+    margin: auto;
+  }
+  .fotos .card .card-title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #FFFFFF;
+      font-size: 100px;
+      font-family:BodoniXT;
+  }
+  }
 
 .btn-header {
   font-size: 1.5rem;
