@@ -41,7 +41,6 @@ ul li {
 
 footer {
   text-align: left;
-  display: flex;
   flex-wrap: nowrap;
   background: #0D0D0D;
   font-family:'Roboto';
@@ -188,9 +187,9 @@ footer {
       font-size: 20px;
       font-family:BodoniXT;
   }
-}
 
-@media (min-width: 768px) and (max-width: 992px)  {
+
+@media (max-width: 992px)  {
   header {
     margin-left: 40%;
   }
@@ -442,9 +441,6 @@ footer {
   font-size: 15px;
   text-align: right;
 }
-.catalogo {
-  align-self: center;
-}
 /********** About CSS **********/
 .about {
   margin-top: 40px;
@@ -509,9 +505,9 @@ footer {
       padding: auto;
   }
 }
-@media (min-width: 1200px) and (max-width: 1341px) {
+/* @media (min-width: 1200px) and (max-width: 1341px) {
   .contactos {
-    display: none; } }
+    display: none; } } */
 
 .main {
   background: #DEDEDE; }
@@ -734,7 +730,7 @@ footer {
 .card-group .productos {
   position: relative;
   width: 100%;
-  margin-left: 12%;
+  margin-left: 10%;
   margin-bottom: 100px;
   background: #FFFFFF;
 }
@@ -745,7 +741,6 @@ footer {
   margin-bottom: 30px;
   margin-top: 70px;
   padding: 10px;
-  margin-left: 6%;
   background: #FFFFFF;
   border: 2px solid #979797;
 }
@@ -789,7 +784,7 @@ footer {
   text-align: right;
 }
 .catalogo {
-  margin-left: 6%;
+  margin-left: 4%;
 }
 
 /********** About CSS **********/
@@ -833,7 +828,7 @@ footer {
       left: 50%;
       transform: translate(-50%, -50%);
       color: #FFFFFF;
-      font-size: 300px;
+      font-size: 200px;
       font-family:BodoniXT;
   }
   .about .encabezados {
@@ -858,7 +853,7 @@ footer {
       left: 50%;
       transform: translate(-50%, -50%);
       color: #FFFFFF;
-      font-size: 100px;
+      font-size: 70px;
       font-family:BodoniXT;
   }
 
@@ -1192,6 +1187,8 @@ footer {
 
 
 
+
+
 /* RESPONSIVE AGREGADO POR TITI
 
 MEDIDAS GUÍA 
@@ -1223,14 +1220,10 @@ MEDIDAS GUÍA
     justify-content: space-around;
     align-items: baseline;
     align-content: center;
-  margin-left: 11rem; }
+  margin-left: 13rem; }
 
   .margin-footer{
     margin-left: 4rem;
-  }
-
-  .footer__responsive2{
-    margin-left: -2rem;
   }
 }
 
@@ -1240,7 +1233,20 @@ MEDIDAS GUÍA
   width: 40rem;
 }
 }
-@media (max-width: 750px) {
+@media (min-width: 430px) and (max-width: 500px) {
+  .margin-footer{
+    width: 24rem;
+  }
+  }
+  @media (max-width: 430px) {
+    .margin-footer{
+      width: 17rem;
+      font-size: medium;
+      margin-left: 1rem;
+    }
+    }
+
+@media (min-width: 500px) and (max-width: 750px) {
   .margin-footer{
     width: 30rem;
   }
@@ -1257,5 +1263,39 @@ MEDIDAS GUÍA
       }
       }  */
 
+      @media (min-width: 575px) and (max-width: 679px) {
+      .header-mobile {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: baseline;
+        align-content: center;
+      margin-left: 13rem; }
+    }
 
+    @media (max-width: 328px) {
+      .footer__responsive{
+        font-size: 9px;
+      }
+      .footext{
+        font-size: small;
+        margin-right: 3rem;
+      }
+      .conection {
+        font-size: 15px;
+      }
+      .footer__responsive3{
+        font-size: 15px;
+      }
+      .card-title {
+        font-size: 20px;
+      }
+      /* .header-mobile{
+        width: min-content;
+      } */
+    }
 
+    .quienes{
+      margin-top: 2rem;
+    }
