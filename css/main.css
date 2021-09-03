@@ -686,7 +686,7 @@ footer {
   margin:1rem;
 }
 
-MEDIDAS GUÍA 
+/*MEDIDAS GUÍA 
 
 @media (max-width: 576px) 
 @media (min-width: 576px) and (max-width: 768px)
@@ -1170,7 +1170,7 @@ MEDIDAS GUÍA
 .card-group .productos {
   position: relative;
   width: 100%;
-  margin-left: 2%;
+  margin-left: 2rem;
   margin-bottom: 100px;
   background: #FFFFFF;
 }
@@ -1309,7 +1309,7 @@ MEDIDAS GUÍA
     .margin-footer{
       width: 17rem;
       font-size: medium;
-      margin-left: 1rem;
+      margin-left: 3rem;
     }
     }
 
@@ -1323,12 +1323,26 @@ MEDIDAS GUÍA
       flex-direction: column;
     }
     } 
-  
-    /* @media (max-width: 700px) {
-      .margin-footer{
-        margin-left: 0rem;
+
+    /* REVISAR TITI 
+    @media (max-width: 576px) {
+      #footer{
+        display: none;
       }
-      }  */
+        }
+*/
+
+.quienes{
+  margin-top: 2rem;
+}
+
+@media (max-width: 576px) {
+  #prueba{
+    display: none;
+  }
+    }
+
+
 
       @media (min-width: 575px) and (max-width: 679px) {
       .header-mobile {
@@ -1501,3 +1515,4 @@ MEDIDAS GUÍA
       font-family:BodoniXT;
   }
 }
+
