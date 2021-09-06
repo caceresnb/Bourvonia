@@ -124,3 +124,54 @@
     
 })(jQuery);
 
+$(document).ready(function(){
+    $('footer1').prepend(`
+    <footer1 id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 notmargin" data-aos="fade-up">   
+                        <div class="navbar margin-footer">
+                            <ul class="footer__responsive">
+                            <li class="footext">
+                                <a href="productos.html"><strong style="color:white">Nuestros productos</strong></a>
+                            </li>
+                            <li   class="texto footext">
+                                <a href="#"><strong style="color:white">¿Quiénes somos?</strong></a>
+                            </li>
+                            <li   class="texto footext">
+                                <a href="contacto.html"><strong style="color:white">Contáctanos</strong></a>
+                            </li>
+                            <p class="copy">©️ Copyright-BOURVONIA</p>
+                        </ul>
+                        <ul class="footer__responsive2">
+                            <li class="footext">
+                                <p class="conection">Sigamos conectados</p>
+                            </li>
+                            <li   class="texto footext">
+                                <img src="./img/footer/facebook.png" alt="" width="20px"><a href="#"><strong style="color:white">&nbsp &nbsp &nbsp Facebook</strong></a>
+                            </li>
+                            <li   class="texto footext">
+                                <img src="./img/footer/instagram.png" alt="" width="25px"><a href="https://www.instagram.com/______bourvonia/"><strong style="color:white">&nbsp &nbsp Instagram</strong></a>
+                            </li>
+                            <p class="copy"> </p>
+                        </ul>
+                        <ul class="footer__responsive3">
+                            <li class="footext">
+                                <a href="productos.html"><strong style="color:white">Zona Norte: 351 393 2602</strong></a>
+                            </li>
+                            <li   class="texto footext">
+                                <a href="productos.html"><strong style="color:white">Zona Sur: 351 606 3195</strong></a>
+                            </li>
+                            <li   class="texto footext">
+                                <a href="productos.html"><strong style="color:white">bourvonia@gmail.com</strong></a>
+                            </li>
+                            <p class="copy"> </p>
+                        </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </footer1>  `
+    );
+  }
+  )
