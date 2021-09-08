@@ -342,7 +342,7 @@ footer {
 }
   .about .about__foto {
     width: 100%;
-    height: fit-content;
+    height: auto;
     margin-bottom: 20px;
     border-style: groove;
    }
@@ -368,7 +368,7 @@ footer {
       left: 50%;
       transform: translate(-50%, -50%);
       color: #FFFFFF;
-      font-size: 25vw;
+      font-size: 23vw;
       font-family:BodoniXT;
   }
   .about .encabezados {
